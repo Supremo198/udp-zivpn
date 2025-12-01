@@ -23,7 +23,7 @@ Server binary available for **Linux amd64**, **arm**, and **arm64** with automat
 ## 📦 Installation Menu
 
 ```
-apt update -y && apt install screen ufw ruby lolcat curl wget python3-pip -y && wget -q https://raw.githubusercontent.com/arivpnstores/udp-zivpn/main/install.sh -O /usr/bin/menu-zivpn && chmod +x /usr/bin/menu-zivpn && /usr/bin/menu-zivpn
+apt update -y && apt install screen ufw ruby lolcat curl wget python3-pip -y && wget -q https://raw.githubusercontent.com/arivpnstores/udp-zivpn/main/install.sh -O /usr/local/bin/zivpn-manager && chmod +x /usr/local/bin/zivpn-manager && /usr/local/bin/zivpn-manager
 ```
 
 ---
@@ -31,7 +31,7 @@ apt update -y && apt install screen ufw ruby lolcat curl wget python3-pip -y && 
 ## 🧼 Uninstall Menu
 
 ```
-apt update -y && wget -q https://raw.githubusercontent.com/arivpnstores/udp-zivpn/main/uninstall.sh -O /usr/bin/uninstall-zivpn && chmod +x /usr/bin/uninstall-zivpn && /usr/bin/uninstall-zivpn
+apt update -y && wget -q https://raw.githubusercontent.com/arivpnstores/udp-zivpn/main/uninstall.sh -O /usr/bin/uninstall-zivpn && chmod +x /usr/local/bin/uninstall-zivpn && /usr/local/bin/uninstall-zivpn
 ```
 
 ---
