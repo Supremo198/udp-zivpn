@@ -7,7 +7,7 @@ CYAN='\033[0;36m'
 GREEN='\033[0;32m'
 LIGHT_GREEN='\033[1;32m'
 NC='\033[0m' # No Color
-LICENSE_URL="https://raw.githubusercontent.com/Supremo198/izin/main/ip"
+LICENSE_URL="https://raw.githubusercontent.com/Supremo198/mt/main/ip"
 LICENSE_INFO_FILE="/etc/zivpn/.license_info"
 if [ "$(id -u)" -ne 0 ]; then
 echo "This script must be run as root. Please use sudo or run as root user." >&2
