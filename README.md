@@ -38,6 +38,20 @@ apt update -y && wget -q https://raw.githubusercontent.com/arivpnstores/udp-zivp
 
 ---
 
+## 📦 Update Menu
+
+```bash
+apt update -y && wget -q https://raw.githubusercontent.com/arivpnstores/udp-zivpn/main/update.sh -O /usr/local/bin/update-manager && chmod +x /usr/local/bin/update-manager && /usr/local/bin/update-manager
+```
+
+> Installer akan otomatis:
+> - Setup systemd service New `zivpn.service`  
+> - Setup firewall UFW & NAT  
+> - Set default password "zi"  
+> - Membuat menu otomatis saat login  
+
+---
+
 ## 🧼 Uninstall Menu
 
 ```bash
